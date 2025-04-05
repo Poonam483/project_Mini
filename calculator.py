@@ -6,9 +6,8 @@ while(True):
     2.subtraction
     3.multiplication
     4.division
-    5.floor division
-    6.modulus
-    7.exit()
+    5.modulus
+    6.exit()
     """))
     if choice==1:
         print("addition=",x+y)
@@ -17,12 +16,10 @@ while(True):
     elif choice==3:
         print("multiplication=",x*y)
     elif choice==4:
-        print("division=",x/y)
+        print("division=",x/y) 
     elif choice==5:
-        print("floor division=",x//y)  
-    elif choice==6:
         print("modulus=",x%y) 
-    elif choice==7:
+    elif choice==6:
         exit()
     else:
         print("invalid choice")                 
